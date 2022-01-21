@@ -53,8 +53,8 @@ const ContactForm = () => {
          <input type="email" placeholder='Email' name='email' value={email} onChange={onChange} />
          <input type="phone" placeholder='Phone' name='phone' value={phone} onChange={onChange} />
          <h5>Contact Type</h5>
-         <input type="radio" name='type' value='personal' chacked={type === "personal"  }  /> Personal{' '}
-         <input type="radio" name='type' value='professional' chacked={type === "professional"}  /> Professional
+         <input type="radio" name='type' value='personal' chacked={type === 'personal'}  /> Personal{' '}
+         <input type="radio" name='type' value='professional' chacked={type === 'professional'}  /> Professional
          <div>
             <input type="submit" value={current ? 'Update Contact' : 'Add Contact'} className='btn btn-primary btn-block' />
          </div>
